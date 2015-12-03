@@ -3,7 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <title>HTML lab</title>
+  <link rel="stylesheet"
+        href="bower_components/bootstrap/dist/css/bootstrap.css">
   <script src="bower_components/angular/angular.js"></script>
+  <script src="bower_components/angular-bootstrap/ui-bootstrap.js"></script>
+  <script
+src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
   <script src="index.js"></script>
 
 </head>
@@ -13,6 +18,7 @@
       {{text}}
     </h1>
     <input type="text" ng-model="text">
+    <button uib-tooltip="On Hover">Im a button</button>
   </div>
 </body>
 </html>
