@@ -12,6 +12,7 @@ gulp.task('browser-sync', function() {
 });
 
 gulp.task('reload-browser', function() {
+  console.log('File change, reload browser');
   browserSync.reload();
 });
 
